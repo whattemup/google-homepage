@@ -1,0 +1,1 @@
+This project consists of me deconstructing an existing web page and rebuilding it. The goal is to begin thinking about how elements get placed on the page and roughly how they get styled and aligned. I will also begin to use my browser's developer tools.
