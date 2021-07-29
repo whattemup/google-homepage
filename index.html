@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .smaller-image {
+          display: block;
+          position: relative;
+          margin: auto;
+          width: 600px;
+          top: 100px;
+        }
+        .search-item {
+          display: block;
+          width:700px;
+          border-radius: 50px;
+          font-size: 16px;
+          padding: 5px;
+          margin: auto;
+          position: relative;
+          top: 40px;
+          background-color: transparent;
+          height: 35px;
+        }
+        
+        .buttons {
+          display: grid;
+          grid-template-columns: 6% 8%;
+          grid-template-rows: 30px;
+          grid-gap: 10px;  
+          position: relative;
+          left: 800px;
+          top: 70px;
+          
+          
+        }
+        #search-icon 
+        {
+          display: block;
+          margin: auto;
+          width: 30px
+        }
+        .left-arrow {
+          width: 25px;
+          display: grid;
+          left: 10px;
+          bottom: -5px;
+          position: relative;
+          
+        }
+        .right-arrow {
+          width: 25px;
+          display: grid;
+          left: 50px;
+          bottom: 20px;
+          position: relative;
+       
+        }
+        .refresh-icon {
+          width: 17px;
+          display: grid;
+          left: 100px;
+          bottom: 40px;
+          position: relative;
+      
+        }
+        .shield-icon {
+          width: 25px;
+          display: grid;
+          left: 225px;
+          bottom: 58px;
+          position: relative;
+      
+        }
+        .lock-icon {
+          width: 22px;
+          display: grid;
+          left: 250px;
+          bottom: 80px;    
+          position: relative;   
+        }
+        .favorites-icon {
+          width: 25px;
+          display: grid;
+          left: 1545px;
+          bottom: 105px;    
+          position: relative;   
+        }
+        .menu-icon {
+          width: 25px;
+          display: grid;
+          left: 1790px;
+          bottom: 130px;    
+          position: relative;  
+        }
+        .magnifying-glass-icon {
+          width: 40px;
+          display: grid;
+          left: 555px;
+          bottom: -85px;    
+          position: relative;
+        }
+        .url-search {
+          width: 1360px;
+          height: 30px;
+          display: grid;
+          left: 210px;
+          bottom: 160px;
+          position: relative;
+          background-color: transparent;
+          border-radius: 3%;
+          font-size: 17px;
+          
+        }
+        #navbar {
+          background-color: lightgray;
+          height: 40px;
+          width: 1900px;
+          display: grid;
+          position: relative;
+          bottom: 6px;
+          right: 10px;
+        }
+        .footer {
+          width: 1900px;
+          height: 100px;
+          right: 5px;
+          background-color: lightgray;
+          display: grid;
+          grid-template-rows: 5px;
+          top: 1000px;
+          position: relative;
+        }
+        .footer-right {
+          display: block;
+          position: relative;
+          left: 1600px;
+          bottom: 35px;
+        }
+        
+      </style>
+      <main>
+      <nav id="navbar">
+        <div class="icons">
+          <img class="left-arrow" src="https://img.icons8.com/ios/452/long-arrow-left.png" alt="left arrow icon">
+        </div>
+        <div class="icons">
+          <img class="right-arrow" src="https://e7.pngegg.com/pngimages/243/26/png-clipart-drawing-long-arrow-angle-arrow.png" alt="right arrow icon"></div>
+        <div class="icons">
+          <img class="refresh-icon" src="https://image.flaticon.com/icons/png/512/17/17686.png" alt="refresh the page icon"></div>
+        <div class="icons">
+          <img class="shield-icon" src="https://www.pngkit.com/png/detail/407-4075668_shield-template-clip-art-shield-icon-png-white.png" alt="security shield icon"></div>
+        <img class="lock-icon" src="https://icons-for-free.com/iconfiles/png/512/lock-131964784896642241.png" alt="windows lock icon"></div>
+      <div class="icons">
+        <img class="favorites-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJEEh0gFlaIAPuv6kkdw8DvwX8V_ud8EsxcPCSxUm1B7bxlfrCws6svHM5ODpGIPvPZG4&usqp=CAU" alt="star icon"></div>
+      <div class="icons">
+        <img class="menu-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAJFBMVEX///8AAAAHBwcrKyv39/eLi4sxMTHi4uKOjo40NDQtLS3j4+MY0nw5AAAAxUlEQVR4nO3aOxKDMAxAQWJ+htz/vkmXyp7QYInZPYE0xkDxpgkAAAAAAACANJZ1K68EylaX3h77PHrC/8175zwS7fHdpH0m6+jZrqnNRbbRo11zNBdJcc9/yvMXecyjVUePdk37sud6/Z6dT2KmD+L5bu/xPZN6pLjx5ej/ogAAAAAAAAAAAI+lxL6fEjseJXY0SuxolNjBKLEjUWIDAAAAAAAAAHAb3e/9dL/x6H6j0f1Go/sNRvcbie4XAAAAAAAA6PsAhxoa3bK+4qEAAAAASUVORK5CYII=" alt="3 bars menu icon"></div>
+        <form id="url-form" class="url">
+          <input id="url-search" class="url-search" type="text" placeholder="                 https://google.com"></form> </nav>
+           <body class="body">
+      <img id="image" class="smaller-image" src="https://logos-marcas.com/wp-content/uploads/2020/09/Google-Logotipo-1998-1999.jpg" alt="google image">
+             <div class="icons">
+               <img class="magnifying-glass-icon" src="https://i.pinimg.com/originals/19/65/ab/1965ab7ef7de87fe748b3c66efbfc73a.jpg" alt="magnifying glass icon"></div>
+         <form id="google-form" class="google">
+          <input id="search-item" class="search-item" type="text" placeholder="         search with Google">
+          </form>
+        <form id="buttons" class="buttons">
+          <button id="search" class="search" type="text">Google Search</button>
+          <button id="lucky" class="lucky" type="text">I'm Feeling Lucky</button></form></body>
+      <footer id="footer" class="footer">
+        <div class="footer-links">
+          <p class="left-footer">
+            <a href="" target="_blank">About</a>
+            <a href="" target="_blank">Advertising</a>
+            <a href="" target="_blank">Business</a>
+            <a href="" target="_blank">How Search works</a></p>
+          <p class="footer-right">
+            <a href="" target="_blank">Privacy</a>
+            <a href="" target="_blank">Terms</a>
+            <a href="" target="_blank">Settings</a></p></div></footer></main>
+            
+         
+</html>
